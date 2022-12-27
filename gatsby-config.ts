@@ -10,6 +10,22 @@ const config: GatsbyConfig = {
    // Learn more at: https://gatsby.dev/graphql-typegen
    graphqlTypegen: true,
    plugins: [
+      {
+         resolve: "gatsby-plugin-minify-html",
+         options: {
+            debug: false, // debug optional, default false
+            config: {
+               collapseWhitespace: true,
+               minifyCSS: true,
+               minifyJS: false,
+               removeComments: true,
+               removeScriptTypeAttributes: false,
+               removeStyleLinkTypeAttributes: false,
+               sortAttributes: false,
+               useShortDoctype: false,
+            },
+         },
+      },
       "gatsby-plugin-postcss",
       `gatsby-transformer-json`,
       {
