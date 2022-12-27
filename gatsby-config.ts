@@ -19,22 +19,22 @@ const config: GatsbyConfig = {
             path: `./src/projects/`,
          },
       },
-      {
-         resolve: "gatsby-plugin-minify-html",
-         options: {
-            debug: false, // debug optional, default false
-            config: {
-               collapseWhitespace: true,
-               minifyCSS: true,
-               minifyJS: false,
-               removeComments: true,
-               removeScriptTypeAttributes: false,
-               removeStyleLinkTypeAttributes: false,
-               sortAttributes: false,
-               useShortDoctype: false,
-            },
-         },
-      },
+      // {
+      //    resolve: "gatsby-plugin-minify-html",
+      //    options: {
+      //       debug: false, // debug optional, default false
+      //       config: {
+      //          collapseWhitespace: true,
+      //          minifyCSS: true,
+      //          minifyJS: false,
+      //          removeComments: true,
+      //          removeScriptTypeAttributes: false,
+      //          removeStyleLinkTypeAttributes: false,
+      //          sortAttributes: false,
+      //          useShortDoctype: false,
+      //       },
+      //    },
+      // },
    ],
 };
 
