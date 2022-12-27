@@ -50,6 +50,5 @@ export default NotFoundPage;
 export const Head: HeadFC = () => (
    <>
       <title>Not found</title>
-      <meta name="not found" content="Not Found Page" />
    </>
 );

@@ -47,6 +47,5 @@ export default function contact() {
 export const Head: HeadFC = () => (
    <>
       <title>Contact</title>;
-      <meta name="contact" content="Contact Page" />
    </>
 );
